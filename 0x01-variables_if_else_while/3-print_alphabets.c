@@ -5,14 +5,18 @@
  */
 int main(void)
 {
+	char x = 'A';
 	char ch = 'a';
 
 	for (; ch >= 'z'; ch++)
+	{
 		putchar(ch);
-	char x = 'A';
+	}
 
 	for (; x >= 'Z'; x++)
+	{
 		putchar(x);
+	}
 	putchar('\n');
 	return (0);
 }
