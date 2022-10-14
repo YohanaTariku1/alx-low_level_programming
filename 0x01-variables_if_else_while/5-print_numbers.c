@@ -9,7 +9,8 @@ int main(void)
 
 	for (; x < 10; x++)
 	{
-		printf("%i\n", x);
+		printf("%i", x);
 	}
+	printf("\n");
 	return (0);
 }
