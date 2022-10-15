@@ -6,13 +6,13 @@
 int main(void)
 {
 	int x = 0;
-	char ch = 'A';
+	char ch = 'a';
 
 	for (; x < 10; x++)
 	{
 		putchar(x + '0');
 	}
-	for (; ch <= 'F'; ch++)
+	for (; ch <= 'f'; ch++)
 	{
 		putchar(ch);
 	}
