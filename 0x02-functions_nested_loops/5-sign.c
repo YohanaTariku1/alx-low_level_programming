@@ -1,16 +1,9 @@
-#include <unistd.h>
 #include <stdio.h>
 /**
- * putchar - puts character
- * @c : input character
  * print_sign - prints the sign of a number
  * @n: integer input
  * Return: 1 for positive, 0 for zero, -1 for negative
  */
-int putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 int print_sign(int n)
 {
 	if (n > 0)
