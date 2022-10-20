@@ -16,11 +16,11 @@ void more_numbers(void)
 
 		for (i = 0; i < 15; i++)
 		{
-			if (b / 10 != 0)
+			if (i / 10 != 0)
 			{
-				_putchar(b / 10 + '0');
+				_putchar(i / 10 + '0');
 			}
-			_putchar(b % 10 + '0');
+			_putchar(i % 10 + '0');
 		}
 		_putchar('\n');
 	}
