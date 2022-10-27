@@ -10,13 +10,13 @@ char *rot13(char *s)
 {
 	int i;
 
-	char rot13[] = "abcdefghijklmnoopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYS";
+	char rot13[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYS";
 	char ROT13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLMN";
 	char *ptr = s;
 
 	while (*s)
 	{
-		for (i = 0; i < 52; i++)
+		for (i = 0; i <= 52; i++)
 		{
 			if (*s == rot13[i])
 			{
