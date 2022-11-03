@@ -28,7 +28,6 @@ char *_strstr(char *haystack, char *needle)
  * @b: string to be returned
  * Return: 1 if there is coincidence, 0 otherwise
  */
-
 int coincidence(char *a, char *b)
 {
 	while (*b && *b == *a)
